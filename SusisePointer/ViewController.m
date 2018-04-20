@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -85,6 +86,22 @@
     
     printf("*c ---- %d\n",*c);//找到 *c 对应的地址 里面所保存的数据
     
+    
+    //7、空指针 没有存储地址的指针是空指针（NULL指针），空指针是被赋值为 0 的指针，在没有被具体初始化之前，其值为0
+    
+    int *k = NULL;
+    
+    int *j = nil;
+    
+    // 8、野指针  野指针不是 NULL 指针，是指向“垃圾”内存（不可用内存）的指针，野指针非常危险。
+    
+    Person *person = [[Person alloc] init];
+    
+    person.name = @"susise";
+    
+    
+    
+    person.name = @"sunqiaoqiao";
     
     
 }

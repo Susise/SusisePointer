@@ -15,6 +15,7 @@
 		1F9BFDC52088846A004241E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFDC42088846A004241E5 /* main.m */; };
 		1F9BFDCF2088846A004241E5 /* SusisePointerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFDCE2088846A004241E5 /* SusisePointerTests.m */; };
 		1F9BFDDA2088846A004241E5 /* SusisePointerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFDD92088846A004241E5 /* SusisePointerUITests.m */; };
+		1F9BFDE92088A5FE004241E5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFDE82088A5FE004241E5 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1F9BFDD52088846A004241E5 /* SusisePointerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SusisePointerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9BFDD92088846A004241E5 /* SusisePointerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SusisePointerUITests.m; sourceTree = "<group>"; };
 		1F9BFDDB2088846B004241E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9BFDE72088A5FE004241E5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1F9BFDE82088A5FE004241E5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1F9BFDB62088846A004241E5 /* AppDelegate.m */,
 				1F9BFDB82088846A004241E5 /* ViewController.h */,
 				1F9BFDB92088846A004241E5 /* ViewController.m */,
+				1F9BFDE72088A5FE004241E5 /* Person.h */,
+				1F9BFDE82088A5FE004241E5 /* Person.m */,
 				1F9BFDBB2088846A004241E5 /* Main.storyboard */,
 				1F9BFDBE2088846A004241E5 /* Assets.xcassets */,
 				1F9BFDC02088846A004241E5 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				1F9BFDBA2088846A004241E5 /* ViewController.m in Sources */,
 				1F9BFDC52088846A004241E5 /* main.m in Sources */,
+				1F9BFDE92088A5FE004241E5 /* Person.m in Sources */,
 				1F9BFDB72088846A004241E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
